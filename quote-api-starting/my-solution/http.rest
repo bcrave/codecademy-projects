@@ -1,0 +1,10 @@
+GET http://localhost:4001/api/quotes
+
+###
+GET http://localhost:4001/api/quotes?person=Grace Hopper
+
+### 
+GET http://localhost:4001/api/quotes/random
+
+### 
+POST http://localhost:4001/api/quotes?quote=lorem ipsum and computers and stuff&person=Brendon Crave
