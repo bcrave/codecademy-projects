@@ -1,10 +1,17 @@
+### GET ALL
 GET http://localhost:4001/api/quotes
 
-###
-GET http://localhost:4001/api/quotes?person=Grace Hopper
+### GET BY NAME
+GET http://localhost:4001/api/quotes?person=Brendon Crave
 
-### 
+### GET RANDOM
 GET http://localhost:4001/api/quotes/random
 
-### 
+### POST NEW QUOTE
 POST http://localhost:4001/api/quotes?quote=lorem ipsum and computers and stuff&person=Brendon Crave
+
+### DELETE BY NAME
+DELETE http://localhost:4001/api/quotes/Brendon Crave
+
+### DELETE BY QUOTE
+DELETE http://localhost:4001/api/quotes/The city’s central computer told you?  R2D2, you know better than to trust a strange computer!
