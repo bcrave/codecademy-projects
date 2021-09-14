@@ -1,7 +1,0 @@
-GET http://localhost:4002/api/quotes
-
-###
-GET http://localhost:4002/api/quotes?person=Brendon Crave
-
-###
-GET http://localhost:4002/api/quotes/random
