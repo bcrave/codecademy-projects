@@ -1,0 +1,36 @@
+GET http://localhost:4001/api/minions
+
+### CREATE NEW MINION
+POST http://localhost:4001/api/minions
+content-type: application/json
+
+{
+  "name": "Logan Anderson",
+  "title": "Web Developer",
+  "weaknesses": "Laughs at Brendon's jokes",
+  "salary": "70000",
+}
+
+### GET MINION BY ID
+GET http://localhost:4001/api/minions/3
+
+### UPDATE MINION BY ID
+PUT http://localhost:4001/api/minions/3
+Content-Type: application/json
+
+{
+  "id": "3",
+  "name": "Vida Gutkowski",
+  "title": "International Creative Architect",
+  "weaknesses": "Will not build out-of-the-box artificial intelligence, Will not build world-class budgetary management, Unable to execute wireless process improvement, too open-source",
+  "salary": 10000
+}
+
+### DELETE MINION BY ID
+DELETE http://localhost:4001/api/minions/10
+
+### GET ALL IDEAS
+GET http://localhost:4001/api/ideas 
+
+### POST NEW IDEA
+POST http://localhost:4001/api/ideas 
