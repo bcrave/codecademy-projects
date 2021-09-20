@@ -1,3 +1,5 @@
+// Quotes from members of punk bands.  Try to guess which ones are accurate!
+
 const quotesObjects = [];
 const bands = [
   "Strike Anywhere",
