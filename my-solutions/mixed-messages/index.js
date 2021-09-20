@@ -50,7 +50,8 @@ const generateQuote = () => {
 };
 
 const logRandomQuote = () => {
-  console.log(quotesObjects[Math.floor(Math.random() * quotesObjects.length)]);
+  const quote = quotesObjects[Math.floor(Math.random() * quotesObjects.length)];
+  console.log(`"${quote.quote}" - ${quote.person} from ${quote.band}`);
 };
 
 let i = 10;
